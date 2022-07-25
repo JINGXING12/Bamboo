@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+assetsPublicPath: '/'
 
 app.get('/', (req, res) => {
   res.send('欢迎使用微信云托管！')
